@@ -18,8 +18,12 @@ gem 'coffee-rails', '~> 4.0.0'
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
+
+#Deployment
 gem 'capistrano-rails'
 gem 'capistrano-bundler'
+gem 'execjs'
+gem 'therubyracer'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
